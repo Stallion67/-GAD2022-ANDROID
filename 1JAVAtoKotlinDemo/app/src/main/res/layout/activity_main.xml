@@ -23,11 +23,21 @@
 		android:paddingEnd="30dp"
 		android:paddingStart="30dp">
 
+<!--		<TextView-->
+<!--			android:id="@+id/txvGreeting"-->
+<!--			android:layout_width="match_parent"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:textSize="16sp"-->
+<!--			android:textColor="@android:color/black"-->
+<!--			android:text="HEllo"/>-->
+
 		<android.support.design.widget.TextInputLayout
 			android:id="@+id/inputLayoutName"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="30dp">
+
+
 
 			<EditText
 				android:id="@+id/etName"
